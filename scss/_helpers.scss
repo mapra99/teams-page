@@ -1,0 +1,27 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@400;600&display=swap');
+
+// responsive breakpoints
+$breakpt-small: 830px;
+
+@mixin pt-serif-font {
+  font-family: 'PT Serif', 'Serif';
+}
+
+@mixin poppins-font {
+  font-family: 'Poppins', 'OpenSans';
+}
+
+@mixin common-text {
+  @include poppins-font;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@mixin heading-text {
+  @include pt-serif-font;
+  font-size: 36px;
+  line-height: 1.35;
+  font-weight: 700;
+}

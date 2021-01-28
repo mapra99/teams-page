@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@400;600&display=swap");
+body {
+  margin: auto;
+  padding: 0 12px;
+  max-width: 930px;
+}
+
+header {
+  margin-top: 71px;
+}
+@media (min-width: 830px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+header .panel {
+  margin-bottom: 38px;
+}
+@media (min-width: 830px) {
+  header .panel.left-panel {
+    max-width: 290px;
+  }
+  header .panel.right-panel {
+    max-width: 440px;
+  }
+}
+header h1 {
+  font-family: "PT Serif", "Serif";
+  font-size: 36px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+header h2 {
+  font-family: "Poppins", "OpenSans";
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+header p {
+  font-family: "Poppins", "OpenSans";
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+@media (min-width: 830px) {
+  header p {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

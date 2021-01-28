@@ -1,0 +1,41 @@
+header {
+  margin-top: 71px;
+
+  @media (min-width: $breakpt-small) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .panel {
+    margin-bottom: 38px;
+    
+    @media (min-width: $breakpt-small) {
+      &.left-panel {
+        max-width: 290px;
+      }
+  
+      &.right-panel {
+        max-width: 440px;
+      }
+    }
+  }
+
+  h1 {
+    @include heading-text;
+  }
+
+  h2 {
+    @include common-text;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  p {
+    @include common-text;
+
+    @media (min-width: $breakpt-small) {
+      font-size: 18px;
+    }
+  }
+}
