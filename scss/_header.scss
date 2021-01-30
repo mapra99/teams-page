@@ -8,8 +8,10 @@ header {
 
   .panel {
     margin-bottom: 38px;
-    
+
     @media (min-width: $breakpt-small) {
+      margin-bottom: 96px;
+
       &.left-panel {
         max-width: 290px;
       }
